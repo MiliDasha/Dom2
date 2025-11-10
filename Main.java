@@ -1,0 +1,16 @@
+public class Main{
+	public static void main(String[] args){
+		Student student = new Student();
+		Student student1 = new Student("Dasha", "Tatelova", "11-504");
+		Student student2 = new Student("Dasha", "Tatelova", "11-504", 18, 56.0, true);
+		
+		String result = student2.displayInfo();
+		System.out.println(result);
+	}
+}
+
+
+
+
+
+

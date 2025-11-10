@@ -1,0 +1,19 @@
+/* public class Main4 {
+    public static void main(String[] args) {
+        Product Product1 = new Product("elka", 1000, "deretho", true, 7);
+        System.out.println(Product1.displayInfo());
+		
+		System.out.println(" ");
+		Product1.applyDiscount(50);
+        System.out.println(Product1.displayInfo());
+		
+		System.out.println(" ");
+		Product1.restock(3);
+		System.out.println(Product1.displayInfo());
+		
+        System.out.println(" ");
+		Product1.sell(1);
+		System.out.println(Product1.displayInfo());
+    } 
+}
+ */

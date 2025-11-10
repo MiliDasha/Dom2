@@ -1,0 +1,19 @@
+/* public class Main2 {
+    public static void main(String[] args) {
+        BankAccount BankAccount1 = new BankAccount("22002254674567", "Dasha", 5000000, "rub", true);
+        System.out.println(BankAccount1.displayInfo());
+        System.out.println(" ");
+        BankAccount1.deposit(500);
+        System.out.println(BankAccount1.displayInfo());
+		System.out.println(" ");
+		BankAccount1.withdraw(100);
+        System.out.println(BankAccount1.displayInfo());
+		System.out.println(" ");
+		BankAccount1.activateAccount();
+		System.out.println(BankAccount1.displayInfo());
+        System.out.println(" ");
+		BankAccount1.deactivateAccount();
+		System.out.println(BankAccount1.displayInfo());
+    } 
+}
+ */

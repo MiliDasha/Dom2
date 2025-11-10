@@ -1,0 +1,26 @@
+public class Main5 {
+    public static void main(String[] args) {
+        Car Car1 = new Car("brand", "model", 2001, "rozothi", 300, true, 10);
+        System.out.println(Car1.displayInfo());
+		
+		System.out.println(" ");
+		Car1.startEngine();
+        System.out.println(Car1.displayInfo());
+		
+		System.out.println(" ");
+		Car1.stopEngine();
+		System.out.println(Car1.displayInfo());
+		
+        System.out.println(" ");
+		Car1.drive(5);
+		System.out.println(Car1.displayInfo());
+		
+		System.out.println(" ");
+		Car1.repaint("krasni");
+		System.out.println(Car1.displayInfo());
+		
+        System.out.println(" ");
+		Car1.updatePrice(350);
+		System.out.println(Car1.displayInfo());
+    } 
+}
